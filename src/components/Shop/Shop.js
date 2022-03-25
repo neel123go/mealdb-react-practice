@@ -26,10 +26,12 @@ const Shop = () => {
             </div>
 
             <div className='order-details-container'>
-                <h2>Order Details</h2>
-                {
-                    orders.map(order => <Order key={order.idMeal} order={order}></Order>)
-                }
+                <div className='order-details'>
+                    <h2>Order Details</h2>
+                    {
+                        orders.map(order => <Order key={order.idMeal} order={order}></Order>)
+                    }
+                </div>
             </div>
         </div>
     );

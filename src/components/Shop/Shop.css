@@ -13,3 +13,7 @@
     background-color: rgba(247, 76, 167, 0.959);
     color: #fff;
 }
+.order-details{
+    position: sticky;
+    top: 0;
+}
