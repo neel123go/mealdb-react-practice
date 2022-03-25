@@ -1,0 +1,14 @@
+.main-order-container{
+    position: static;
+    top: 0;
+}
+.order-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.order-container .order-img{
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 20px;
+}

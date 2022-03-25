@@ -1,0 +1,15 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.meal-container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.order-details-container{
+    padding: 20px;
+    background-color: rgba(247, 76, 167, 0.959);
+    color: #fff;
+}
